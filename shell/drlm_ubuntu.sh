@@ -39,6 +39,7 @@ echo "$(date) - Configuring HTTP service for DRLM ..."
 a2enmod ssl
 a2enmod rewrite
 a2enmod cgi
+a2enmod reqtimeout
 echo "# Include the DRLM Configuration:" | tee -a /etc/apache2/apache2.conf
 echo "Include /usr/share/drlm/conf/HTTP/https.conf" | tee -a /etc/apache2/apache2.conf
 rm -v /etc/apache2/sites-enabled/*
