@@ -5,6 +5,8 @@
 In this README you will find explained the required steps to prepare your own testing environment to follow the workshop and
 play with ReaR and DRLM installation.
 
+You can find the workshop at the following URL: https://archive.fosdem.org/2017/schedule/event/backup_dr_drlm/
+
 ## Requirements
 
 - Install Virtualbox and the extension pack from here: https://www.virtualbox.org/wiki/Downloads
@@ -113,11 +115,11 @@ All boxes have the user "vagrant" with sudo privileges and password "vagrant".
 ### GNU/Linux, OS X & Windows:
 
 ```sh   
-$ vagrant box add https://atlas.hashicorp.com/minimal/boxes/centos7
+$ vagrant box add minimal/centos7
 
-$ vagrant box add https://atlas.hashicorp.com/minimal/boxes/jessie64
+$ vagrant box add minimal/jessie64
 
-$ vagrant box add https://atlas.hashicorp.com/minimal/boxes/xenial64
+$ vagrant box add minimal/xenial64
 ```
 ###### OPTIONAL:
 ```sh 
